@@ -1,0 +1,44 @@
+.footer{
+    color: azure;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 8vw ;
+    padding-top: 80px;
+    gap: 20px;
+}
+
+.footer-content{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 70px;
+   
+}
+
+.footer-content-center ul{
+    padding-left: 20px;
+}
+
+.footer-content-right li, .footer-content-left li, .footer-content-center li{
+  list-style: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+  
+}
+.footer-social-icons img{
+  width: 40px;
+  margin-right: 15px;
+  margin-top: 10px;
+
+}
+@media(max-width:750px){
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+}
+
