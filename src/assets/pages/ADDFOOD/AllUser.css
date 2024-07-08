@@ -1,0 +1,37 @@
+/* AllUser.css */
+
+.user-list-container {
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #c4e4c1;
+    border: 1px solid #eee8e8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Aligns child elements to center */
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.user-table th, .user-table td {
+    border: 1px solid #0a0a0a;
+    padding: 12px;
+    text-align: center;
+}
+
+.user-table th {
+    background-color:rgb(224, 121, 102);
+    color: #333;
+}
+
+.user-table tbody tr:nth-child(even) {
+    background-color: #eed9d9;
+}
+
+.user-table tbody tr:hover {
+    background-color: #f0f0f0;
+}

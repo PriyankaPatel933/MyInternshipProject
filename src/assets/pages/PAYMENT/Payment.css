@@ -1,0 +1,132 @@
+
+.payment-method {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    /* background: url("/py.jpg") no-repeat ; */
+    /* background-size:cover;
+    position: relative; */
+
+    
+    /* background-color: #f9f9f9; */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    margin-top: 15px;    
+ background-color:rgb(248, 225, 227);
+    
+}
+
+.payment-method h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.payDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.payDetails h6 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.payDetails input[type="text"],
+.payDetails input[type="email"],
+.payDetails input[type="number"],
+.payDetails input[type="Date"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-methods h6 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    flex-basis: 48%;
+}
+
+.payment-methods input[type="Date"],
+.payment-methods input[type="Number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 48%;
+}
+
+.payment-methods input[type="Date"] {
+    /* Specific styling for Date input */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.payment-methods input[type="Number"] {
+    /* Specific styling for Number input */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.payDetails hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #030202;
+}
+
+.payDetails p {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.payDetails input[type="Number"][placeholder='$Rs'] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.btna {
+    background-color: #194b2f;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btna:hover {
+    background-color: #45a049;
+}
+
+.payment-methods input :hover{
+    border-color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    .payment-method {
+        width: 100%;
+        padding: 10px;
+    }
+}

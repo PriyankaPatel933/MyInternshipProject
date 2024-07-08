@@ -1,35 +1,82 @@
-.place-order{
+.place-order {
     display: flex;
     align-items: start;
     justify-content: space-between;
     gap: 50px;
     margin-top: 60px;
-}
-.place-order-left{
+  }
+  
+  .place-order-left {
     width: 100%;
-    max-width: max(30%,500px);
-}
-.place-order-left .title{
+    max-width: max(30%, 500px);
+  }
+  
+  .place-order-left .title {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 25px;
-}
-.place-order-left input{
+  }
+  
+  .place-order-left .btn {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    height: 35px;
+  }
+  
+  .place-order-left button {
+    background-color: rgb(200, 197, 212);
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .place-order-left button:hover {
+    background-color: tomato;
+  }
+  
+  .place-order-left input {
     margin-bottom: 10px;
     width: 100%;
     padding: 10px;
     border: 1px solid #c5c5c5;
     border-radius: 4px;
     outline-color: tomato;
-}
-.place-order-left .multi-fields{
-display: flex;
-gap: 10px;
-}
-.palace-order-right{
+  }
+  
+  .place-order-left .multi-fields {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .place-order-right {
     width: 100%;
-    max-width: max(40%,500px);
-}
-.place-order .cart-total button{
+    max-width: max(40%, 500px);
+  }
+  
+  .place-order .cart-total button {
     margin-top: 10px;
-}
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .place-order {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .place-order-left,
+    .place-order-right {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .place-order-left .title {
+      font-size: 24px;
+    }
+  
+    .place-order-left .btn {
+      width: 100%;
+    }
+  }
+  

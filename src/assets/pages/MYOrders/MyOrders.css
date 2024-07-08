@@ -1,0 +1,35 @@
+.my-orders {
+    margin: 50px 0;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 100%; /* Use full width of the container */
+    max-width: 1500px; /* Limit maximum width */
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    align-items: center;
+    margin-inline-start: auto;
+}
+
+.list button {
+    margin-right: 4px;
+    color: green; /* Corrected property name */
+}
+
+@media (max-width: 900px) {
+    .list {
+        flex-wrap: wrap; /* Allow items to wrap */
+        justify-content: center; /* Center items vertically */
+        padding: 5px; /* Add padding */
+    }
+
+    .list button {
+        margin-top: 5px; /* Adjust margin */
+    }
+}
+
+    

@@ -1,5 +1,6 @@
 .cart{
-    margin: 10px 0px;
+    margin: 30px 10px;
+    /* margin-top: 25pxpx; */
 }
 .cart-items-title{
     display: grid;

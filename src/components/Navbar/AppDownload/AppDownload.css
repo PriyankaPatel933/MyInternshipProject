@@ -1,25 +1,98 @@
-.app-download{
-   margin: auto auto;
-   margin-top: 100px;
-   font-size: max(3vw,20px) ;
-   text-align: center;
-   font-family: 500; 
-}
-.app-download-platforms{
-    display: flex;
-    justify-content: center;
-    gap: max (2vw,10px) ;
-    margin-top:10px;
-    margin-bottom: 30px;
-}
-.app-download-platforms img{
-    width: max(25vw,120px);
-    max-width: 180px;
-    transition: 0.5s;
-    cursor: pointer;
+/* AppDownload.css */
+
+.app-download {
+  text-align: center;
+  padding: 20px;
+  background-color: #e6c7c7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 35px;
 }
 
-.app-download-platforms img:hover{
-    transform: scale(0.9);
- 
+.AppImg {
+  margin: 20px 0;
+}
+
+.AppImg img {
+  width: 250px;
+  height: auto;
+}
+
+.app-download h4 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.app-download p {
+  font-size: 1em;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.app-download label {
+  font-size: 1em;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.app-download select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.app-download input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.app-download .app-download-platforms {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.app-download .app-download-platforms img {
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.app-download .app-download-platforms img:hover {
+  transform: scale(1.1);
+}
+
+/* Media Query for Responsive Design */
+
+@media (max-width: 768px) {
+  .app-download {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .AppImg img {
+    width: 200px;
+  }
+
+  .app-download h4 {
+    font-size: 1.2em;
+  }
+
+  .app-download p {
+    font-size: 0.9em;
+  }
+
+  .app-download .app-download-platforms img {
+    width: 100px;
+  }
 }

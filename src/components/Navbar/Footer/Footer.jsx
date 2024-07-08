@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='footer' id='footer'>
             <div className="footer-content">
                 <div className="footer-content-left">
-                    <img onClick={backToTop}  src={assets.logo} alt="" />
+                    <img onClick={backToTop}  src={assets.logo2} alt="" />
                     <p>A restaurant is a place where you can sit down and relax,
                      and let someone else do the cooking for you.Food is more than just 
                      sustenance; it is a language that speaks to our senses and brings people 

@@ -1,0 +1,63 @@
+/* Container styling */
+.payment-details-container {
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 1500px;
+    background-color: #e7bebe;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.payment-details-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Table styling */
+.payment-details-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.payment-details-table th, .payment-details-table td {
+    border: 1px solid #1a1616;
+    padding: 12px;
+    text-align: left;
+}
+
+.payment-details-table th {
+    background-color: #f87409;
+    color: white;
+    font-weight: bold;
+}
+
+.payment-details-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.payment-details-table tr:hover {
+    background-color: #b1aaaa;
+}
+
+.payment-details-table th, .payment-details-table td {
+    text-align: center;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* No data found message */
+.payment-details-table td[colspan="6"] {
+    text-align: center;
+    color: #1ada5a;
+    font-size: 16px;
+}
